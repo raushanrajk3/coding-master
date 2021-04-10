@@ -1,16 +1,22 @@
-# coding-node
-This is a repository for applicants to the Network Software submit coding exercises for review.
+# coding-master
+Introduction
+This a basic crud nodejs application for pets.
 
-## Getting Started:
-Built for Node Version: 12.x
+# How to install
+git clone https://github.com/ramachandrareddy1/coding-master
 
-1. Create a fork of this repository.
-2. Clone fork
-3. `npm install` within project folder to install dependencies.
-4. `npm run tests` to run sample unit tests.
+cd coding-master
 
-## Doing the test:
-1. Do requested changes.
-2. Commit your changes.
-3. Push changes.
-4. Submit a pull request with your updates to this project
+# Install  dependencies
+npm install
+
+# How to run
+
+npm start
+
+This will run the backend server at localhost:8080. If all is working well, you should be able to access the url http://localhost:8080/pets from your Postman
+
+# How to run Test Case
+
+npm start test
+
